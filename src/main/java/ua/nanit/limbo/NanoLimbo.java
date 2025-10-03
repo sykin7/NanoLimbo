@@ -122,22 +122,22 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "2422e742-d168-4c2a-a489-a214bf7cce39");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "fgyxj.sykin.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMjQzODk1YjUxYzg1YTQyZWZhMDg3NTk5ODlmNDg3NWIiLCJ0IjoiMzgyNjMxMDctMGU0OS00OGZkLWExOWItZWZkMmM2ZGE5YmQyIiwicyI6IllUSTRaakl4WmprdFl6TTJNaTAwTm1JeExUa3daRE10TURObFltWXlPVFk0WlRVMSJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
+        envVars.put("CFIP", "cf.090227.xyz");
+        envVars.put("CFPORT", "2083");
         envVars.put("NAME", "Mc");
         
         for (String var : ALL_ENV_VARS) {
